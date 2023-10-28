@@ -19,7 +19,7 @@ setup(
     url='https://github.com/Jarunga/reg.git',
     packages=find_packages('src'),
     package_dir={'': 'src'},
-    py_modules=[splitext(basename(path))[0] for path in glob('src/**/*.py',recursive=True)],
+    py_modules=[splitext(basename(path))[0] for path in glob('src/**/**.py',recursive=True)],
     include_package_data=True,
     zip_safe=False,
     install_requires=_requires_from_file('requirements.txt'),

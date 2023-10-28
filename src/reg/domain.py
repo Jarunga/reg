@@ -1,4 +1,4 @@
-from .reg.reg.extra.url_regex_custom import regex
+from .extra.url_regex_custom import regex
 
 EMAIL_HEAD=['E-mail.','E-MAIL','Email.','MAIL.','Mail.','mailto:','-mail']
 
